@@ -1,0 +1,69 @@
+# 编译产生的二进制文件
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# 生成的文件
+*.log
+*.tmp
+*.bak
+*.swp
+*.pid
+*.seed
+*.pid.lock
+*.state
+*.stackdump
+
+# 忽略CMake构建目录
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# 忽略编译器生成文件
+*.dSYM/
+*.idea/
+*.vscode/
+*.Xcode/
+*.gch
+
+# 忽略由IDE生成的文件
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.project
+*.cproject
+
+# 忽略构建目录
+/build/
+/bin/
+/obj/
+/Debug/
+/Release/
+/build/
+
+# 忽略生成的文档
+*.docx
+*.pdf
+
+# 忽略其他不需要的文件
+*~
+.*.swp
+.*.swo
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+*.log
+*.user
+*.pyc
+__pycache__/
